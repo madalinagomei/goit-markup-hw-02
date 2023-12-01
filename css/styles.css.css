@@ -14,7 +14,9 @@ body {
 list{
     list-style: none;
 }
+
 /* components */
+
 .section-subtitle{
     font-weight: 500;
     fint-size: 20px;
