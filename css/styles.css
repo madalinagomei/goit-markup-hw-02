@@ -8,17 +8,17 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color:var(--moz-background-origin);
+    color: var(--main-title-color);
+    background-color: var(--moz-background-origin);
 }
 
-list{
+.list {
     list-style: none;
 }
 
 /* components */
 
-.section-subtitle{
+.section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -31,14 +31,14 @@ list{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-decoration: none
-    color: var(--main-title-color)
+    text-decoration: none;
+    color: var(--main-title-color);
 }
 .section-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
 }
 .logo {
     font-family: 'Raleway',  sans-serif;
@@ -60,6 +60,7 @@ list{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     color:var(--accent-color)
 }
 .header-menu-link:hover,
@@ -77,7 +78,7 @@ list{
 }
 .header-contact-link:focus,
 .header-contact-link:hover {
-    color:#404bbf
+    color:#404bbf;
 }
 /* hero */
 .hero {
@@ -89,7 +90,7 @@ list{
     line-height: 1.07;
     text-align:center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color:var(--moz-background-origin);
 }
 .hero-btn{
     font-family: inherit;
@@ -97,7 +98,7 @@ list{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color:var(--moz-background-origin);
     cursor: pointer;
     background-color: #4D5AE5;
 }
@@ -110,7 +111,7 @@ list{
     background-color: #f4f4fd;
 }
 .team-item {
-background-color: #ffffff;
+background-color: var(--moz-background-origin)
 }
 /* portfolio */
 .portfolio-btn {
@@ -125,7 +126,7 @@ background-color: #ffffff;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
-    color:#ffffff;
+    color:var(--moz-background-origin);
     background-color: #404bbf;
 }
 /* footer */
@@ -133,7 +134,11 @@ background-color: #ffffff;
     background-color: #2e2f42
 }
 .logo-light{
-    color: #f4f4fd;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
 }
 .footer-text {
     font-size: 18px;
