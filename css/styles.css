@@ -7,7 +7,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--main-text-color);
+    color: var (--main-text-color);
     background-color: #FFFFFF;
 }
 
@@ -19,7 +19,7 @@ list{
 
 .section-subtitle{
     font-weight: 500;
-    fint-size: 20px;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--subtitle-color);
@@ -44,8 +44,8 @@ list{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase
-    color: var(var(--accent-color));
+    text-transform: uppercase;
+    color: var(var--accent-color);
 }
 /* header */
 .logo-dark {
@@ -126,7 +126,7 @@ background-color: #ffffff;
 }
 /* footer */
 .footer {
-    background-color: #2e2f42;
+    background-color: #2e2f42
 }
 .logo-light{
     color: #f4f4fd;
